@@ -1,0 +1,173 @@
+header{
+  background-color: #1279f0;
+  border: 7px solid #28c2f7;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-radius: 7px;
+}
+
+.section-style{
+  background-color: #fff;
+  padding: 3rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+.section-style h2{
+  color: #1279f0;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+nav ul li a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul{
+  background-color: #2c3e50;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav ul li{
+  padding: 1rem 1.5rem;
+  font-size: 18px;
+}
+
+nav ul li a:hover{
+  font-size: 20px;
+  color: #fff;
+  border: 1.5px solid #fff;
+  border-radius: 5px;
+}
+
+#languages div ul li{
+  padding: 0.5rem 0;
+  font-size: 20px;
+}
+
+#switch-theme{
+  background-color: #2c3e50;
+  color: #fff;
+  border-radius: 8px;
+  position:fixed;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  transition: background-color 1.5s ease;
+  transition: color 1.5s ease;
+}
+
+#switch-theme:hover{
+  background-color: #fff;
+  color: #2c3e50;
+}
+
+#switch-theme.active{
+  background-color: #fff;
+  color: #2c3e50;
+}
+
+#admin-login{
+  display: none;
+}
+
+#user-responses{
+  display: none;
+}
+
+body.darkmode{
+  background-color: #2c2c2c;
+}
+
+body.darkmode header{
+  background-color: #134177;
+  border: 7px solid #b2ddfa;
+  color: #fff;
+}
+
+body.darkmode .section-style{
+  background-color:#454545;
+  color: #fff;
+ } 
+
+body.darkmode .section-style h2{
+  color: #b2ddfa;
+  border-bottom: 2px solid #b2ddfa;
+}
+
+#contact-me-form div,
+#adminform div {
+  margin-bottom: 15px;
+}
+
+#contact-me-form label,
+#adminform label {
+  display: block;     
+  margin-bottom: 6px;    
+  font-weight: bold;
+  color: #000;
+}
+
+#contact-me-form input,
+#contact-me-form textarea,
+#adminform input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#contact-me-form input:focus,
+#contact-me-form textarea:focus,
+#adminform input:focus {
+  border-color: #1279f0;
+  outline: none;
+  box-shadow: 0 0 6px rgba(18,121,240,0.4);
+}
+
+#contact-me-form button,
+#adminform button {
+  background: #1279f0;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background 0.3s;
+}
+
+#contact-me-form button:hover,
+#adminform button:hover {
+  background: #0e5dbd;
+}
+body.darkmode #contact-me-form input,
+body.darkmode #contact-me-form textarea,
+body.darkmode #adminform input {
+  background: #333;
+  color: #fff;
+  border: 1px solid #888;
+}
+
+body.darkmode #contact-me-form label{
+  color: #fff;
+}
+
+body.darkmode #contact-me-form input:focus,
+body.darkmode #contact-me-form textarea:focus,
+body.darkmode #adminform input:focus {
+  border-color: #b2ddfa;
+  box-shadow: 0 0 6px rgba(178,221,250,0.5);
+}
+
+
