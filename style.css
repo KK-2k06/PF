@@ -159,7 +159,8 @@ body.darkmode #adminform input {
   border: 1px solid #888;
 }
 
-body.darkmode #contact-me-form label{
+body.darkmode #contact-me-form label,
+body.darkmode #adminform label{
   color: #fff;
 }
 
